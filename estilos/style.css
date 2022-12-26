@@ -38,20 +38,16 @@
 .bg{
     background-color: hsl(217, 54%, 11%);
     width: 96vw;
-    height: 96.5vh;
+    height: 100vh;
     padding: 10px;
-    position: relative;
  }
  .card{
-    width: 410px;
-    height: 81%;
+    width: 300px;
+    height: 85%;
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 25px;
+    margin: 15px auto;
  }
  .card img{
     width: 90%;
@@ -60,7 +56,6 @@
     margin-right: auto;
     display: block;
     border-radius: 15px;
-
  }
  .card h1{
     color: white;
@@ -70,7 +65,9 @@
  #descricao p {
     color: hsl(215, 51%, 70%);
     padding: 0 15px;
-    font
+ }
+ div.infos{
+   padding: 10px;
  }
  div#eth{
     display: inline-block;
@@ -95,7 +92,7 @@
  }
  #avatar p{
     display: inline-block;
-    color: ;
+    color: hsl(215, 51%, 70%);
     margin-top: -10px;
  }
  #avatar a{
