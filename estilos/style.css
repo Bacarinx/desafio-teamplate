@@ -33,12 +33,13 @@
  *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
  }
  body{
    background-color: hsl(217, 54%, 11%);
    width: 98vw;
-   height: 90vh;
+   height: 100vh;
    position: relative;
    align-items: center; 
    justify-content: center;
@@ -51,54 +52,63 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
-    padding: 30px 20px;
+    width: 300px;
+    padding: 20px 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.144);
  }
- .card img{
-    max-width: 96%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 15px;
+ .img{
+   width: 90%;
+   height: 40%;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+ }
+ .img img{
+   width: 100%;
+   border-radius: 15px;
  }
  .card h1{
     color: white;
     font-size: 1em;
-    padding: 1em;
+    padding: 0.5em;
  }
  #descricao p {
     color: hsl(215, 51%, 70%);
-    padding: 0 1em;
+    padding: 0 0.5em;
+    font-size: 0.7em;
  }
  div.infos{
-   padding: 0.6em;
+   justify-content: space-between;
+   align-items: center;
+   display: flex;
+   font-size: 0.7em;
+   padding: 0.5em;
  }
  div#eth{
-    display: inline-block;
     text-align: left;
-    padding: 1em;
     color: hsl(178, 100%, 50%);
     text-align: left;
  }
  div#clock{
-    display: inline-block;
     text-align: right;
     color: hsl(215, 51%, 70%);
     text-align: right;
+    
  }
  #linha {
    width: 100%;
    border: 1px solid rgba(255, 255, 255, 0.178);
  }
  #avatar{
-    padding: 1.5em 1em 0.5em 1em;
-
+    padding: 1em 0.5em 0.5em 0.5em;
  }
  #avatar img{
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     display: inline-block;
     border: 1px solid white;
+    border-radius: 50%;
     margin-top: -0.6em;
  }
  #avatar p{
@@ -107,8 +117,8 @@
     margin-top: -0.6em;
     vertical-align: text-top;
     padding-left: 0.5em;
+    font-size: 0.8em;
  }
-
  #avatar a{
     color: white;
     text-decoration: none;
