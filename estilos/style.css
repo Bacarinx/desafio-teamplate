@@ -52,13 +52,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    padding: 20px 10px;
+    width: min(250px, 60%);
+    padding: 20px 10px 0 10px;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.144);
  }
  .img{
-   width: 90%;
-   height: 40%;
+   width: 95%;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -68,10 +67,17 @@
    width: 100%;
    border-radius: 15px;
  }
+ .img:hover{
+   cursor: pointer;
+ }
  .card h1{
     color: white;
     font-size: 1em;
     padding: 0.5em;
+ }
+ .card h1:hover{
+   color: hsl(178, 100%, 50%);
+   cursor: pointer;
  }
  #descricao p {
     color: hsl(215, 51%, 70%);
@@ -94,7 +100,6 @@
     text-align: right;
     color: hsl(215, 51%, 70%);
     text-align: right;
-    
  }
  #linha {
    width: 100%;
@@ -118,8 +123,13 @@
     vertical-align: text-top;
     padding-left: 0.5em;
     font-size: 0.8em;
+
  }
  #avatar a{
     color: white;
     text-decoration: none;
+ }
+ #avatar a:hover{
+   color: hsl(178, 100%, 50%);
+   cursor: pointer;
  }
