@@ -86,8 +86,13 @@
     color: hsl(215, 51%, 70%);
     text-align: right;
  }
+ #linha {
+   width: 100%;
+   border: 1px solid rgba(255, 255, 255, 0.178);
+ }
  #avatar{
-    padding: 0px 1em;
+    padding: 1.5em 1em 0.5em 1em;
+
  }
  #avatar img{
     width: 2em;
@@ -101,7 +106,9 @@
     color: hsl(215, 51%, 70%);
     margin-top: -0.6em;
     vertical-align: text-top;
+    padding-left: 0.5em;
  }
+
  #avatar a{
     color: white;
     text-decoration: none;
