@@ -37,25 +37,25 @@
  }
  body{
    background-color: hsl(217, 54%, 11%);
-   width: 96vw;
+   width: 98vw;
+   height: 90vh;
    position: relative;
-   display: flex;
    align-items: center; 
    justify-content: center;
  }
  .card{
-    max-width: 300px;
-    height: 70vh;
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
-    padding: 20px;
     display: block;
-    margin: auto;
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding: 30px 20px;
  }
  .card img{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 96%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -64,40 +64,43 @@
  .card h1{
     color: white;
     font-size: 1em;
-    padding: 15px;
+    padding: 1em;
  }
  #descricao p {
     color: hsl(215, 51%, 70%);
-    padding: 0 15px;
+    padding: 0 1em;
  }
  div.infos{
-   padding: 10px;
+   padding: 0.6em;
  }
  div#eth{
     display: inline-block;
     text-align: left;
-    padding: 15px;
+    padding: 1em;
     color: hsl(178, 100%, 50%);
+    text-align: left;
  }
  div#clock{
     display: inline-block;
     text-align: right;
     color: hsl(215, 51%, 70%);
+    text-align: right;
  }
  #avatar{
-    padding: 0px 15px;
+    padding: 0px 1em;
  }
  #avatar img{
-    width: 30px;
-    height: 30px;
+    width: 2em;
+    height: 2em;
     display: inline-block;
     border: 1px solid white;
-    margin-top: -10px;
+    margin-top: -0.6em;
  }
  #avatar p{
     display: inline-block;
     color: hsl(215, 51%, 70%);
-    margin-top: -10px;
+    margin-top: -0.6em;
+    vertical-align: text-top;
  }
  #avatar a{
     color: white;
